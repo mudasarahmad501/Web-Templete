@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.web-button{
+    padding: 8px 12px;
+    background: transparent;
+    cursor: pointer;
+}
+.section-margin{
+    margin: 20px 60px 20px 60px;
+}
+/*--------------------- Header ------------------ */
+#header{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    padding: 15px 80px;
+    /* gap: 160px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    left: 0; 
+}
+#hero .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+#header .logo img{
+    width: 70px;
+    height: 70px;
+}
+#header .logo h6{
+    letter-spacing: 4px;
+    color: blueviolet;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 25px;
+    position: relative;
+}
+#navbar li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: blueviolet;
+    transition: width .3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#navbar li a:hover::after {
+    width: 70%;
+}
+
+
+
+
+/*---------------------End Header ------------------ */
+
+
+/*---------------------Hero ------------------ */
+#hero{
+    background-image: url("hero.jpg");
+    background-position: cover;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 90vh;
+    gap: 20px;
+}
+#hero h1{
+    font-size: 40px;
+}
+#hero h1, #hero p{
+    color: #fff;
+}
+#hero button{
+    border-color: #fff;
+    border: 2px solid;
+    color: #fff;
+    padding: 8px 12px;
+    background: transparent;
+    cursor: pointer;
+}
+/*---------------------End Hero ------------------ */
+
+/*--------------------------- Intro Section -------------------------- */
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 125px;
+}
+#intro img {
+    width: 50%;
+    height: 260px;
+}
+#intro h1{
+    font-size: 40px;
+}
+#intro h1 span{
+    color: blueviolet;
+}
+#intro p{
+    line-height: 1.6;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*--------------------------- Intro Section -------------------------- */
+
+
+/* ---------------------------Contact Section-------------------------- */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcf9f9;
+    padding: 100px 0px 100px 0px;
+    /* gap: 50px; */
+}
+#contact h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#contact h1 span{
+    color: blueviolet;
+}
+.log-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+.log-div a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.log-div a i{
+    font-size: 30px;
+}
+.log-div h4{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.cont-divs{
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+    /* background-color: aqua; */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+}
+.cont-divs{
+    padding: 20px;
+}
+.cont-divs:hover{
+    transform: translateY(-10px);
+}
+.cont-divs p{
+    font-size: 11px;
+    font-weight: 500;
+    /* margin-top: 10px; */
+}
+#contact .main-info-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* ---------------------------Contact Section-------------------------- */
+
+
+/* ----------------------------Team Member Section-------------------- */
+
+/* ----------------------------Team Member Section-------------------- */
+
+
+
+
+
+
